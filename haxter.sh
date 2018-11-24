@@ -44,8 +44,8 @@ printf "\e[1;91mInvalid Username! Try again\e[0m\n"
 sleep 1
 start
 else
-default_wl_pass="passwords.lst"
-read -p $'\e[1;92mPassword List (Enter to default list): \e[0m' wl_pass
+default_wl_pass="bloop.lst"
+read -p $'\e[1;92mPassword List (press enter to use the default provided list): \e[0m' wl_pass
 wl_pass="${wl_pass:-${default_wl_pass}}"
 default_threads="100"
 threads="${threads:-${default_threads}}"
@@ -172,7 +172,7 @@ function store() {
 
 if [[ -n "$threads" ]]; then
 printf "\n"
-printf "\e[1;91m [*] Waiting threads shutting down...\n\e[0m"
+printf "\e[1;91m [*] Waiting threads to close...\n\e[0m"
 wait $pid1 > /dev/null 2>&1 ; wait $pid2 > /dev/null 2>&1 ; wait $pid3 > /dev/null 2>&1 ; wait $pid4 > /dev/null 2>&1 ; wait $!;
 sleep 6
 
@@ -186,7 +186,7 @@ rm -rf nottested.lst
 printf "\e[1;91m [!] Use this file as wordlist!\e[0m\n"
 fi
 default_session="Y"
-printf "\n\e[1;77m [?] Save session for user\e[0m\e[1;92m %s \e[0m" $user
+printf "\n\e[1;77m [?] Do you want to save session for user\e[0m\e[1;92m %s \e[0m" $user
 read -p $'\e[1;77m? [Y/n]: \e[0m' session
 session="${session:-${default_session}}"
 if [[ "$session" == "Y" || "$session" == "y" || "$session" == "yes" || "$session" == "Yes" ]]; then
