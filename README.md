@@ -1,7 +1,7 @@
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `WELCOME TO HAXTAGRAM`
 
  ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) A SCRIPT CREATED BY @ORIGINALABHAY
-                                                  CONTACT : EMAIL: abhay.bhattacharya01@gmail.com
+ ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) CONTACT : EMAIL: abhay.bhattacharya01@gmail.com
 
 
 OPEN TERMINAL IN ROOT by typing "SU" (except kali users)
