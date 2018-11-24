@@ -29,16 +29,11 @@ var2=$(echo $var0 | grep -o 'csrftoken=.*' | cut -d ';' -f1 | cut -d '=' -f2)
 
 
 banner() {
-printf
-"d88b. 888b. 888 .d88b  888 8b  8    db    8       db    888b. 8   8    db    
-8P  Y8 8  .8  8  8P www  8  8Ybm8   dPYb   8      dPYb   8wwwP 8www8   dPYb   
-8b  d8 8wwK'  8  8b  d8  8  8  "8  dPwwYb  8     dPwwYb  8   b 8   8  dPwwYb  
-`Y88P' 8  Yb 888 `Y88P' 888 8   8 dP    Yb 8888 dP    Yb 888P' 8   8 dP    Yb 
-                                                                              
-Yb  dP 
- YbdP  
-  YP   
-  88  "}
+
+printf HELL0 WORLD
+printf "\e[1;77m\e[41m  HELL0 HAXTER  \e[0m\n" #WITH GREAT POWER COME GREATER RESPONISBILITY
+printf "\n"
+}
 
 
 function start() {
