@@ -1,8 +1,4 @@
-WELCOME TO 
-|  |  /\  \ /~~|~~/\  /~~\|~~\  /\  |\  /|
-|--| /__\  X   | /__\|  __|__/ /__\ | \/ |
-|  |/    \/ \  |/    \\__/|  \/    \|    |
-
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
 A SCRIPT CREATED BY @ORIGINALABHAY
 CONTACT : EMAIL: abhay.bhattacharya01@gmail.com
 
