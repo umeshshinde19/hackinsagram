@@ -30,7 +30,7 @@ var2=$(echo $var0 | grep -o 'csrftoken=.*' | cut -d ';' -f1 | cut -d '=' -f2)
 
 banner() {
 
-printf HELL0 WORLD
+printf "\e[1;77m\e[41m  SCRIPT BY ORIGINALABHAY \e[0m\n"
 printf "\e[1;77m\e[41m  HELL0 HAXTER  \e[0m\n" #WITH GREAT POWER COME GREATER RESPONISBILITY
 printf "\n"
 }
