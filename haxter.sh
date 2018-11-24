@@ -37,7 +37,7 @@ printf "\n"
 
 
 function start() {
-read -p $'\e[1;92mUsername account: \e[0m' user
+read -p $'\e[1;92mUSERNAME: \e[0m' user
 checkaccount=$(curl -L -s https://www.instagram.com/$user/ | grep -c "the page may have been removed")
 if [[ "$checkaccount" == 1 ]]; then
 printf "\e[1;91mInvalid Username! Try again\e[0m\n"
@@ -55,7 +55,7 @@ fi
 
 checkroot() {
 if [[ "$(id -u)" -ne 0 ]]; then
-    printf "\e[1;77Please Run this program as R00T, type SU to get root access!\n\e[0m"
+    printf "\e[1;92mPlease Run this program as R00T, type SU to get root access!\n\e[0m"
     exit 1
 fi
 }
