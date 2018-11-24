@@ -14,7 +14,7 @@ HOW TO USE
 
 
 git clone https://github.com/originalabhay/haxtagram
-cd ~/haxtagramd
+cd ~/haxtagram
 
 first install requirements by 
 chmod +x install.sh
