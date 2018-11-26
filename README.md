@@ -1,7 +1,6 @@
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `WELCOME TO HAXTAGRAM`
+## PR0JECT HAXTAGRAM
+## CREATED BY ORIGINALABHAY
 
- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) A SCRIPT CREATED BY @ORIGINALABHAY
- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) CONTACT : EMAIL: abhay.bhattacharya01@gmail.com
 
 
 OPEN TERMINAL IN ROOT by typing "SU" (except kali users)
@@ -20,4 +19,5 @@ then run program by typing in
 chmod +x haxter.sh
        & ./haxter.sh
 
-Inspired by Instagram-Py by DeathSec https://github.com/deathsec
+### Inspiration from https://github.com/thelinuxchoice/instainsane
+### based Instagram-Py by DeathSec https://github.com/deathsec
