@@ -2,7 +2,7 @@
 Added Daniel Miessler's PASSWORDS to bloop.lst 
 
 ## CREATED BY ORIGINALABHAY
-## PR0JECT HAXTAGRAM
+## 🔥PR0JECT HAXTAGRAM🔥
 HAXTAGRAM is a tool to brute-force attack instagram accounts (Use this with caution, I am not Responsible for any damages caused.)
 
 ``
