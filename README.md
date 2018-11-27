@@ -1,4 +1,4 @@
-#### `` CHANGELOG ``
+#### ``💡 CHANGELOG ``
 Added Daniel Miessler's PASSWORDS to bloop.lst 
 
 ## CREATED BY ORIGINALABHAY
