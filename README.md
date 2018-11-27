@@ -1,23 +1,27 @@
-## PR0JECT HAXTAGRAM
+#### ``💡 CHANGELOG ``
+Added Daniel Miessler's PASSWORDS to bloop.lst 
+### ``` VIDEO GUIDE FOR WIN USERS```
+[HOW TO USE IN WINDOWS 10](https://www.youtube.com/watch?v=yi7CHg6gDtk)
+
 ## CREATED BY ORIGINALABHAY
+## 🔥PR0JECT HAXTAGRAM🔥
+HAXTAGRAM is a tool to brute-force attack instagram accounts (Use this with caution, I am not Responsible for any damages caused.)
 
+``
+🛑 RESPECT LAWS AND PRIVACY
+``
 
-
-OPEN TERMINAL IN ROOT by typing "SU" (except kali users)
-
-
-HOW TO USE:
+### HOW TO INSTALL PREREQUISITES (OpenSSL, TOR, cURL)
+```
 git clone https://github.com/originalabhay/haxtagram
-cd ~/haxtagram
-
-first install requirements by 
+cd haxtagram
 chmod +x install.sh
-       & ./install.sh
+sudo ./install.sh
+```
+### HOW TO EXECUTE:
+```
+chmod +x haxtagram.sh
+sudo ./haxtagram.sh
+```
 
-	   
-then run program by typing in 
-# chmod +x haxter.sh
- # & ./haxter.sh
 
-
-### based Instagram-Py by DeathSec https://github.com/deathsec
