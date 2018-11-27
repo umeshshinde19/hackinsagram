@@ -1,5 +1,8 @@
-#### ``💡 CHANGELOG ``
+``💡 CHANGELOG ``
 Added Daniel Miessler's PASSWORDS to bloop.lst 
+
+![alt text](https://github.com/originalabhay/haxtagram/blob/master/images/working.png)
+
 ### ``` VIDEO GUIDE FOR WIN USERS```
 [HOW TO USE IN WINDOWS 10](https://www.youtube.com/watch?v=yi7CHg6gDtk)
 
