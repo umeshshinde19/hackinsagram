@@ -1,7 +1,7 @@
 #### ``💡 CHANGELOG ``
 Added Daniel Miessler's PASSWORDS to bloop.lst 
 ### ``` VIDEO GUIDE FOR WIN USERS```
-```[HOW TO USE IN WINDOWS 10](https://www.youtube.com/watch?v=yi7CHg6gDtk)```
+[HOW TO USE IN WINDOWS 10](https://www.youtube.com/watch?v=yi7CHg6gDtk)
 
 ## CREATED BY ORIGINALABHAY
 ## 🔥PR0JECT HAXTAGRAM🔥
