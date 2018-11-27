@@ -1,4 +1,3 @@
-[logo] https://github.com/originalabhay/haxtagram/blob/master/images/working.png "working"
 ``💡 CHANGELOG ``
 Added Daniel Miessler's PASSWORDS to bloop.lst 
 
