@@ -1,23 +1,22 @@
-## PR0JECT HAXTAGRAM
 ## CREATED BY ORIGINALABHAY
+## PR0JECT HAXTAGRAM
+~~HAXTAGRAM is a tool to brute-force attack instagram accounts (Use this with caution, I am not Responsible for any damages caused.)
 
+``diff 
+-RESPECT LAWS AND PRIVACY
+``
 
-
-OPEN TERMINAL IN ROOT by typing "SU" (except kali users)
-
-
-HOW TO USE:
-git clone https://github.com/originalabhay/haxtagram
-cd ~/haxtagram
-
-first install requirements by 
+### HOW TO INSTALL PREREQUISITES (OpenSSL, TOR, cURL)
+```
 chmod +x install.sh
-       & ./install.sh
+sudo ./install.sh
+```
+### HOW TO EXECUTE:
+```
+git clone https://github.com/thelinuxchoice/instainsane
+cd instainsane
+chmod +x instainsane.sh
+sudo ./instainsane.sh
+```
 
-	   
-then run program by typing in 
-# chmod +x haxter.sh
- # & ./haxter.sh
 
-
-### based Instagram-Py by DeathSec https://github.com/deathsec
