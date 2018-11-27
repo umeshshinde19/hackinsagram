@@ -16,8 +16,8 @@ chmod +x install.sh
 
 	   
 then run program by typing in 
-chmod +x haxter.sh
-       & ./haxter.sh
+# chmod +x haxter.sh
+ # & ./haxter.sh
 
-### Inspiration from https://github.com/thelinuxchoice/instainsane
+
 ### based Instagram-Py by DeathSec https://github.com/deathsec
