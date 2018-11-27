@@ -1,3 +1,7 @@
+#### `` CHANGELOG ``
+Added https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt
+more than 10 million password
+
 ## CREATED BY ORIGINALABHAY
 ## PR0JECT HAXTAGRAM
 HAXTAGRAM is a tool to brute-force attack instagram accounts (Use this with caution, I am not Responsible for any damages caused.)
