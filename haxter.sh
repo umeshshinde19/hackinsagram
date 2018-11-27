@@ -1,4 +1,4 @@
-d#!/bin/bash
+#!/bin/bash
 # INSTAHACKER
 # www.github.com/originalabhay
 # WITH POWER COMES GREAT RESPONSIBILITY
