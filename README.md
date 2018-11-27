@@ -8,13 +8,13 @@ HAXTAGRAM is a tool to brute-force attack instagram accounts (Use this with caut
 
 ### HOW TO INSTALL PREREQUISITES (OpenSSL, TOR, cURL)
 ```
+git clone https://github.com/originalabhay/haxtagram
+cd haxtagram
 chmod +x install.sh
 sudo ./install.sh
 ```
 ### HOW TO EXECUTE:
 ```
-git clone https://github.com/thelinuxchoice/instainsane
-cd instainsane
 chmod +x haxtagram.sh
 sudo ./haxtagram.sh
 ```
