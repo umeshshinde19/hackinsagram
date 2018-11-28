@@ -27,4 +27,5 @@ chmod +x haxtagram.sh
 sudo ./haxtagram.sh
 ```
 
-
+`` based on instainsane.sh by thelinuxchoice https://github.com/thelinuxchoice/instainsane``
+``(his scripts has many bugs that are fixed now and this is working perfectly)
