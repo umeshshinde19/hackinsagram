@@ -1,5 +1,5 @@
-``💡 CHANGELOG ``
-Added Daniel Miessler's PASSWORDS to bloop.lst 
+``1 🛑 The best possible thing you can do is edit bloop.lst with your own password guesses. `` 
+``2 🛑 Do not create bloop.lst file with less than 101 entries``  
 
 ![alt text](https://github.com/originalabhay/haxtagram/blob/master/images/working.png)
 
