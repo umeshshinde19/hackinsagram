@@ -27,4 +27,10 @@ chmod +x haxtagram.sh
 sudo ./haxtagram.sh
 ```
 
-## based on instainsane.sh by thelinuxchoice https://github.com/thelinuxchoice/instainsane (his scripts has many bugs that are fixed now and this is working perfectly)
+## based on instainsane.sh by Umesh Shinde https://github.com/umeshshinde19 (his scripts has many bugs that are fixed now and this is working perfectly)
+
+
+### Donate!
+Support the authors: Umesh Shinde
+
+<noscript><a href="https://liberapay.com/umeshshinde19/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
